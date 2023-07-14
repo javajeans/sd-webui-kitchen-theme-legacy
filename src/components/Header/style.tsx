@@ -16,9 +16,9 @@ export const themeIcon = {
 };
 
 export const darkLogo =
-  'https://gw.alipayobjects.com/zos/bmw-prod/9ecb2822-1592-4cb0-a087-ce0097fef2ca.svg';
+  './logo-backup.png';
 export const lightLogo =
-  'https://gw.alipayobjects.com/zos/bmw-prod/e146116d-c65a-4306-a3d2-bb8d05e1c49b.svg';
+  './logo.png';
 
 export const civitaiLogo = (
     <span className="anticon civitai" role="img">

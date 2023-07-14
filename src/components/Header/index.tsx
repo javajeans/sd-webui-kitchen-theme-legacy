@@ -69,13 +69,6 @@ const Header = memo<HeaderProps>(({children}) => {
                 placement="top"
             >
                 <HeaderView id="header" style={{flexDirection: mobile ? 'column' : 'row'}}>
-                    <a
-                        href="https://github.com/canisminor1990/sd-webui-kitchen-theme"
-                        rel="noreferrer"
-                        target="_blank"
-                    >
-                        <Logo themeMode={themeMode} />
-                    </a>
 
                     <Nav />
                     {children}
