@@ -99,7 +99,13 @@ const Header = memo<HeaderProps>(({ children }) => {
             </Space>
           </a>
         }
+        wrapClassName={'mymodal'}
       >
+        <iframe
+          scrolling="yes"
+          src="https://chat.vedegpt.com/#/chat"
+          style={{ border: '1px', height: '600px', width: '100%' }}
+        ></iframe>
         {/* <Giscus themeMode={themeMode} /> */}
       </Modal>
     </>
